@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/* Info Component */
+
+.infoWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.infoCounter {
+    display: flex;
+    gap: 8px;
+}
+
+.infoCounter > span {
+    background: var(--gray-400);
+    border-radius: 999px;
+    padding: 2px 8px;
+    color: var(--gray-200);
+    font-size: var(--font-smallest);
+}
+
+.infoCounter > .blueText {
+    color: var(--blue);
+}
+
+.infoCounter > .purpleText {
+    color: var(--purple);
+}
+
+/*  */
+
+/* Empty Component */
+
+.emptyWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 24px;
+    gap: 16px;
+    border-top: 1px solid var(--gray-400);
+    border-radius: 8px;
+}
+
+.emptyText {
+    font-size: 1rem;
+    color: var(--gray-300);
+    line-height: 140%;
+    text-align: center;
+}
